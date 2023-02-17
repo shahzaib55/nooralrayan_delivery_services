@@ -1,36 +1,33 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import Carousel from "react-bootstrap/Carousel";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import '../style.css';
+import img from '../assets/cover.jpg'
 function Navbar1() {
   return (
-    <Navbar bg="dark" expand="lg" variant="dark">
-      <Container>
-        <Navbar.Brand href="#home">Noor <span className="text-primary blink_me">Alrayan</span></Navbar.Brand>
+    <>
+    <Navbar bg="dark" expand="lg" variant="dark" className="fixed-top">
+       <div className="container-fluid">
+        <Navbar.Brand href="#home">Noor <span className="text-warning brnd">Alrayan</span></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mx-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown>
+          <Nav className="ms-auto">
+            <Nav.Link className="navlink" href="#home">Home</Nav.Link>
+            <Nav.Link className="navlink" href="#about">About Us</Nav.Link>
+            <Nav.Link className="navlink" href="#services">Services</Nav.Link>
+            <Nav.Link className="navlink" href="#joinus">Join Us</Nav.Link>
+            <Nav.Link className="navlink" href="#gallery">Gallery</Nav.Link>
+            <Nav.Link className="navlink" href="#contact">Contact Us</Nav.Link>
+            <Nav.Link className="navlink" href="#contact"></Nav.Link>
           </Nav>
+          <button className="btn btn-warning rounded-pill float-right">3046769420</button>
         </Navbar.Collapse>
-      </Container>
+        </div>
     </Navbar>
+  
+    </>
   );
 }
 

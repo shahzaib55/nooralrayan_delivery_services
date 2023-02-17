@@ -1,0 +1,64 @@
+*{
+    font-family: Oswald;
+}
+
+
+.carousel-item{
+    height: 80vh;
+    min-height: 100px;
+   
+  
+    background: rgba(0,0,0,0.6);
+    opacity: 0.7;
+}
+
+.cr{
+    background: rgba(0,0,0,0.6);
+}
+
+.blink_me {
+    animation: blinker 3s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+ 
+  section{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 100%;
+    width: 100%;
+    background: #f00;
+    box-shadow:0px 25px 30px rgba(0,0,0,.5);
+    display: flex;
+}
+.content{
+    width: calc(50% - 50px);
+    height: 100%;
+    background: #000;
+    box-sizing: border-box;
+    padding: 30px 50px;
+    color: #fff;
+    font-family: sans-serif;
+    line-height: 25px;
+    text-align: center;
+    top: 10;
+}
+.image-box{
+       width: calc(50% + 50px);
+    height: 100%;
+    background: #f00;
+    box-sizing: border-box;
+    border-left: 100px solid #000;
+    border-bottom: 400px solid transparent;
+    background: url(http://www.divscode.com/bootimg/pexel.jpeg);
+    background-position: -350px -59px;
+    background-repeat: no-repeat;
+    
+    
+}

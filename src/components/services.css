@@ -1,0 +1,56 @@
+.services{
+    background: #1f2233;
+    padding: 100px 0;
+    color: antiquewhite;
+}
+.common{
+    width: 33.33333333%;
+    margin: 20px auto;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+ 
+}
+.heading{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.mainContent{
+    font-size: 16px;
+    color: antiquewhite;
+}
+.commonBorder{
+    background: #ffc107;
+    height: 3px;
+    width: 100%;
+    margin-top: 10px auto;
+}
+.col-4{
+    width: 33.33333333333333%;
+}
+.service_box{
+    padding: 40px;
+    color: antiquewhite;
+    background: #23263a;
+   
+
+}
+.commonIcon{
+    font-size: 40px;
+    color: #ffc107;
+    margin-bottom: 15px;
+}
+.service_box_header{
+    font-size: 20px;
+    font-weight: 40px;
+    margin-bottom: 15px;
+}
+.service_box_p{
+    font-size: 14px;
+    color: antiquewhite;
+}
+.row{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}

@@ -2,9 +2,14 @@
 body{
     background: f1fbff;
 }
-.navlink { font-family: 'Oswald', sans-serif !important; }
-.navbar-brand { font-weight: 700; font-size: 24px;font-family: 'Oswald', sans-serif !important;  }
-.brnd{font-family: 'Oswald', sans-serif !important; }
+.bar{
+    background: #23263a;
+    
+   
+}
+.navlink { font-family: 'Oswald', sans-serif !important;color: antiquewhite; }
+.navbar-brand { font-weight: 700; font-size: 24px;font-family: 'Oswald', sans-serif !important;color: antiquewhite;  }
+.brnd{font-family: 'Oswald', sans-serif !important;color: antiquewhite; }
 .navlink::after {
     content: '';
     display: block;
@@ -16,7 +21,10 @@ body{
 .navlink:hover::after {
     width: 100%
 }
-
+.butn{
+    background: #ff4a57;
+    background-color: #ff4a57;
+}
 .navbar-light .navbar-nav .active>.nav-link,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,

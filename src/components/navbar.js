@@ -1,14 +1,16 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import Carousel from "react-bootstrap/Carousel";
+import Carousel from "./carsoule";
+import About from './about'
+import Services from './services'
 import NavDropdown from "react-bootstrap/NavDropdown";
 import '../style.css';
 import img from '../assets/cover.jpg'
 function Navbar1() {
   return (
     <>
-    <Navbar bg="dark" expand="lg" variant="dark" className="fixed-top">
+    <Navbar variant="dark" expand="lg"  className="fixed-top bar">
        <div className="container-fluid">
         <Navbar.Brand href="#home">Noor <span className="text-warning brnd">Alrayan</span></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -22,10 +24,20 @@ function Navbar1() {
             <Nav.Link className="navlink" href="#contact">Contact Us</Nav.Link>
             <Nav.Link className="navlink" href="#contact"></Nav.Link>
           </Nav>
-          <button className="btn btn-warning rounded-pill float-right">3046769420</button>
+          <button className="btn btn-warning rounded-pill float-right">Contact Us</button>
         </Navbar.Collapse>
         </div>
-    </Navbar>
+        </Navbar>
+        <section id="home">
+        <Carousel />
+        </section>
+        <section id="about">
+        <About />
+        </section>
+        <section id="services">
+        <Services />
+        </section>
+    
   
     </>
   );

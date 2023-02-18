@@ -1,5 +1,5 @@
 *{
-    font-family: Oswald;
+    font-family: 'Oswald', sans-serif !important; 
 }
 
 
@@ -19,6 +19,36 @@
 .cr{
     background: rgba(0,0,0,0.6);
 }
+@media screen and (min-width: 601px) {
+.carousel-item .carousel-caption h3{
+      font-size: 40px;
+    }
+  }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .carousel-caption{
+          bottom: 370px;
+        }
+    .carousel-caption p{
+        width: 100%;
+    }
+
+      }
+@media only screen and (max-width: 767px){
+    .navbar-nav{
+        text-align: center;
+    }
+    .carousel-caption{
+        top: 200px;
+        z-index: 2;
+        
+    }
+    .carousel-caption h3{
+        font-size: 17px;
+        width: 100%;
+        margin-right: 20px;
+    }
+   
+}
 .section-padding{
     padding: 100px 0;;
 }
@@ -28,7 +58,7 @@
     
 }
 .carousel-item .carousel-caption h3{
-    font-size: 40px;
+
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-top: 20px;

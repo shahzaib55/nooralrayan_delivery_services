@@ -32,8 +32,26 @@
     padding: 40px;
     color: antiquewhite;
     background: #23263a;
-   
-
+    border-radius: 15px;
+    transition: 3s;
+}
+.service_box_parent{
+    transition: 3s;
+}
+.service_box :hover{
+    color: #23263a;
+    border-radius: 15px;
+}
+.service_box_parent :hover .service_box_p{
+    color: #1f2233;
+}
+.service_box_parent :hover .commonIcon{
+    color: #1f2233;
+}
+.service_box_parent :hover{
+   background: #ffc107;
+   color: #23263a;
+   border-radius: 15px;
 }
 .commonIcon{
     font-size: 40px;
@@ -46,11 +64,29 @@
     margin-bottom: 15px;
 }
 .service_box_p{
-    font-size: 14px;
+    font-size: 16px;
     color: antiquewhite;
+    font-family: 'Oswald', sans-serif !important;
 }
 .row{
     display: flex;
     width: 100%;
     flex-wrap: wrap;
+}
+.divider
+{
+	position: relative;
+	margin-top: 90px;
+	height: 1px;
+}
+.div-transparent:before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 5%;
+	right: 5%;
+	width: 90%;
+	height: 1px;
+	background-image: linear-gradient(to right, transparent, rgb(220, 225, 236), transparent);
 }

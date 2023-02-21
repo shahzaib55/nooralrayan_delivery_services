@@ -1,0 +1,136 @@
+.joinus{
+    background: #1f2233;
+    padding: 30px 0;
+    color: antiquewhite;
+    text-align: left;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-family: 'Oswald', sans-serif !important;
+}
+.row{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.form-parent{
+    border: 1px solid #55545b;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.form{
+    padding: 10px;
+}
+.input-group .icon{
+    background: #1f2233;
+    color: #ffc107;;
+}
+
+/*button css*/
+.butn{
+    background: #ffc107;
+    border: none;
+}
+
+
+
+/* CSS */
+.bt .button-18 {
+  align-items: center;
+  background-color: #55545b;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  width: 100%;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.bt.button-18:hover,
+.bt.button-18:focus { 
+  background-color: #ffc107;
+  color: #ffffff;
+}
+
+.bt.button-18:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+.bt.button-18:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
+
+/*upload file css*/
+.file-drop-area {
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+    max-width: 100%;
+    padding: 40px;
+    border: 1px dashed rgba(255, 255, 255, 0.4);
+    border-radius: 3px;
+    transition: 0.2s;
+   
+  }
+  
+  .choose-file-button {
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+    padding: 8px 15px;
+    margin-right: 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+  
+  .file-message {
+    font-size: small;
+    font-weight: 300;
+    line-height: 1.4;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .file-input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    opacity: 0;
+    
+  }
+  
+  .mt-100{
+      margin-top:100px;
+  }

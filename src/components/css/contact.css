@@ -1,0 +1,99 @@
+.contact{
+    background: #1f2233;
+    padding: 100px 0;
+    color: antiquewhite;
+}
+.common{
+    width: 33.33333333%;
+    margin: 20px auto;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+ 
+}
+.heading{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.mainContent{
+    font-size: 16px;
+    color: antiquewhite;
+}
+.commonBorder{
+    background: #ffc107;
+    height: 3px;
+    width: 100%;
+    margin-top: 10px auto;
+}
+.row1{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+}
+.main {
+    background: #23263a;
+}
+
+/*button css*/
+.button-18 {
+
+    align-items: center;
+    background-color: #55545b;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    width: 100%;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+  }
+  
+.button-18:hover,
+.button-18:focus { 
+    background-color: #ffc107;
+    color: #ffffff;
+  }
+  
+.button-18:active {
+    background: #09223b;
+    color: rgb(255, 255, 255, .7);
+  }
+  
+.button-18:disabled { 
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, .08);
+    color: rgba(0, 0, 0, .3);
+  }
+ .contact-img-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .form-parent .input{
+    padding-top: 30px;
+
+ }
+.form-parent .textarea{
+    padding-top: 35px;
+    padding-bottom: 20px;
+}

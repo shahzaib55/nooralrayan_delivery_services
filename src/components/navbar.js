@@ -5,7 +5,7 @@ import Carousel from "./carousel.js";
 import About from './about.js'
 import Services from './services.js'
 import Footer from "./footer.js";
-import JoinUs from '../components/joinus.js'
+import JoinUs from './JoinUs'
 import Gallery from "./gallery.js";
 import Contact from "./contact.js";
 import NavDropdown from "react-bootstrap/NavDropdown";
